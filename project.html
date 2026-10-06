@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface": "#1b1c1a", "tertiary-container": "#2c231b", "surface-container": "#efeeea", "on-error-container": "#93000a", "primary-fixed-dim": "#d2c4bc", "secondary-fixed-dim": "#dec395", "surface-bright": "#fbf9f5", "on-secondary-fixed-variant": "#564421", "tertiary": "#150e07", "surface-variant": "#e4e2de", "surface-tint": "#675c56", "on-tertiary-fixed": "#221a12", "on-primary": "#ffffff", "on-primary-fixed": "#221a15", "secondary-fixed": "#fbdfaf", "on-background": "#1b1c1a", "on-tertiary-container": "#97897e", "surface-container-lowest": "#ffffff", "primary-container": "#2b231e", "surface-container-low": "#f5f3ef", "on-secondary-fixed": "#271900", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#4f453f", "secondary": "#705b36", "inverse-primary": "#d2c4bc", "on-error": "#ffffff", "outline": "#7f756f", "outline-variant": "#d1c4bd", "on-secondary-container": "#76613b", "on-tertiary-fixed-variant": "#4f453b", "on-secondary": "#ffffff", "tertiary-fixed": "#f0e0d3", "error": "#ba1a1a", "surface-dim": "#dbdad6", "primary": "#150e0a", "inverse-surface": "#30312e", "background": "#fbf9f5", "surface": "#fbf9f5", "surface-container-high": "#eae8e4", "inverse-on-surface": "#f2f0ec", "tertiary-fixed-dim": "#d3c4b7", "on-primary-container": "#968982", "primary-fixed": "#efe0d7", "error-container": "#ffdad6", "secondary-container": "#fbdfaf", "on-surface-variant": "#4e4540", "surface-container-highest": "#e4e2de" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-md": "1.25rem", "margin-mobile": "1.25rem", "space-lg": "2.25rem", "space-xs": "0.375rem", "space-sm": "0.75rem", "margin": "4rem", "space-xl": "3.5rem", "gutter": "2rem", "margin-tablet": "2rem", "gutter-mobile": "1rem" }, fontFamily: { "title-md": ["Manrope"], "body-lg": ["Manrope"], "title-lg": ["Manrope"], "headline-sm": ["Bodoni Moda"], "body-md": ["Manrope"], "headline-lg-mobile": ["Bodoni Moda"], "body-sm": ["Manrope"], "headline-md": ["Bodoni Moda"], "headline-lg": ["Bodoni Moda"], "label-md": ["Manrope"], "display-lg": ["Bodoni Moda"], "label-sm": ["Manrope"], "display-lg-mobile": ["Bodoni Moda"] }, fontSize: { "title-md": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "500" }], "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "0.01em", fontWeight: "300" }], "title-lg": ["18px", { lineHeight: "26px", letterSpacing: "0.01em", fontWeight: "600" }], "headline-sm": ["22px", { lineHeight: "30px", letterSpacing: "0em", fontWeight: "500" }], "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg-mobile": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "400" }], "headline-md": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.12em", fontWeight: "600" }], "display-lg": ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "400" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.14em", fontWeight: "600" }], "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.01em", fontWeight: "400" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(43,35,30,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="Swastik Interiors Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VxQheKKdgQYECeA8lchJEmmFs-zj2boZoSHV-USPzdFUED3Ghu_LESCgTIFMRWarJaB4pBzL0NOZic7yvi4gFC1I0UDQVr3d6fvXWKCrUdHbiYoLgiIyxXUtggZ3xAYq8rkhF0KbSUUDHgMmfpWa-Fegd38Gre6UNzivO-ll8nM9UTseBRvF7F-oj5rPYKxhcju6e1dO3QantC8YqmTl5t4u8zsK4lF24FXkUXnQ1W9_jPkwlAFaTTb6Y"/><div class="flex flex-col"><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Studio</span><span class="font-title-md text-title-md text-primary font-semibold">Swastik Interiors</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Quick Phone Inquiry" class="w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-low text-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-colors" href="tel:+18005550199"><span class="material-symbols-outlined text-[20px]">call</span></a><a aria-label="Consultation Desk" class="w-11 h-11 flex items-center justify-center p-0.5 rounded-full hover:opacity-90 transition-opacity" data-path="contact" href="contact.html"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtA-W2x6JpLUH1O6LvHPkqKouMuGSE5smP3hCzFIalbhXz-ZsIhNRPTGnRz-faHfEwT_doaP-NKd9ScQOddm5FPOsSwLcLwai7x1HLmpk_CERqmuH739NooLqSKaB9DvYHSPTO8O6N5TY25MabRfXPPuNi6oVodxklN5E0G8Jy7GwjaU95CZkkLAQWLUPV8NRyRTIBZs8xDL_Des8o_g29rSkgWT-QMZUUVBRd5UnTME0X1vPMdh2R"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Editorial Header Section -->
+<section class="px-margin-mobile pt-space-md pb-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Portfolio 2024 / 2025</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">Curated Works</h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      A collection of thoughtfully crafted homes and bespoke spaces across Bangalore &amp; Mumbai.
+    </p>
+</section>
+<!-- Horizontal Filter Chips (Overflow Scrollable) -->
+<section class="w-full pl-margin-mobile pr-space-xs my-space-sm">
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs no-scrollbar" id="filter-container">
+<button class="portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md transition-all duration-200 shadow-sm" onclick="filterPortfolio('all', this)">
+        All Projects
+      </button>
+<button class="portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all duration-200" onclick="filterPortfolio('apartments', this)">
+        3BHK Apartments
+      </button>
+<button class="portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all duration-200" onclick="filterPortfolio('villas', this)">
+        Luxury Villas
+      </button>
+<button class="portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all duration-200" onclick="filterPortfolio('penthouses', this)">
+        Penthouses
+      </button>
+<button class="portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all duration-200" onclick="filterPortfolio('kitchens', this)">
+        Modular Kitchens
+      </button>
+<button class="portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all duration-200" onclick="filterPortfolio('commercial', this)">
+        Commercial
+      </button>
+</div>
+</section>
+<!-- Projects Grid Layout -->
+<section class="px-margin-mobile flex flex-col gap-space-md pt-space-xs" id="projects-feed">
+<!-- Card 1: The Altius Sky Villa -->
+<article class="project-item w-full flex flex-col rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all duration-300" data-category="villas">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Expansive double-height living room of a luxury sky villa in Indiranagar with soft beige lime-wash walls, bespoke brass-accented credenza, sculptural curved boucle sofa in cream, polished travertine marble floors, and floor-to-ceiling glass looking out to lush canopy trees in natural warm morning sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNRESCq3cdZKKvTHgDIcQBMy16cXtNW5YfDe4GM5ZR8qEswTb0aBqqqGKS0ikEQb020IZXbz0XtgBonE-21cthk46PL-8v2FtPLVUwbTB1WGsc06JrV6eK7NOQ-78wg9ZyJgYJoGGd_SLCXQLYW-2zbgrT_caN9vHXWedhaKpbPToJtn-ha7YwU56uapfimmLXEumOTRra2EZDwaIFWjj2I3h311x9CATseU6YH8Wluob8gd_iNuOL"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-surface-bright/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+            Sky Villa
+          </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-primary/80 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+            Ultra Luxe Tier
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Neo-Classical &amp; Contemporary</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Indiranagar, BLR</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">The Altius Sky Villa</h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+<span>4,200 sq.ft</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">bed</span>
+<span>4 Bed Duplex</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+<span>Turnkey</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary group" href="#">
+<span>View Case Study</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 2: Casa Terracotta -->
+<article class="project-item w-full flex flex-col rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all duration-300" data-category="apartments">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Chic modern bohemian living space in Whitefield featuring raw terracotta brick feature wall, cane woven credenza, warm cognac leather lounge armchair, earthy textured linen drapery, indoor fiddle leaf fig plant in terracotta vessel, bathed in warm amber afternoon light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc5FrE_c0_3_lN6SdBztuIjTpSu-SLk1D2Pc1gF4nWklBsUKrmVsmkLOU0dprudVS8EHjaI1FaRmFW5NVbSXU2SwkhKx7dEGn0FSjXrV29rkgQkalvAaZRM4TISqUQXql7TMMDVYTzDJlc4d30MnqZmSjBDbHTa3Wr5ki6RBbEU-0d5BUeU_-ajfEvrulxjv-avuT5Px1ICYPq5rxzbWo77rLmrZyVpd-He8qswIFhTS3psdYVmJKW"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-surface-bright/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+            3BHK Apartment
+          </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-primary/80 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+            Premium Tier
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Modern Bohemian</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Whitefield, BLR</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Casa Terracotta</h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+<span>2,350 sq.ft</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">local_florist</span>
+<span>Courtyard Patio</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary group" href="#">
+<span>View Case Study</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 3: The Glasshouse Penthouse -->
+<article class="project-item w-full flex flex-col rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all duration-300" data-category="penthouses">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Serene minimalist Japandi style penthouse lounge in Koramangala Bangalore featuring light white oak slats, custom low platform tatami-style coffee table, shoji screen inspired glass partitions, muted olive ceramic pots, and soft diffused zen daylighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSF7_qHoJwtaFIdJeUIX1hPoLsRR2fA8nDcPp79b93IAmSeEz4po9AKHU5TehjpYeuXGI9Z-bUaZYc_rPvCVoK-sOOsW3iLEhAmGGjg_kH0IajWZ38SAPRfceZZUQnoenOzW1BBhvaKvI-PbZG36_HFqhx5LC1_V6nHhtxVw_v57DmPl32Ti_IQ-32M36Tz4-tefibR2zWs3FOoHpHA_zM2twB_qIJVXH1XjnJIwU2BkLpGw3M9btV"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-surface-bright/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+            Penthouse
+          </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-primary/80 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+            Signature Tier
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Japanese Japandi Minimalist</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Koramangala, BLR</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">The Glasshouse Penthouse</h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+<span>3,600 sq.ft</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">deck</span>
+<span>Sky Terrace</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary group" href="#">
+<span>View Case Study</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 4: Sovereign Palm Villa -->
+<article class="project-item w-full flex flex-col rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all duration-300" data-category="villas">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Grand palatial dining hall in Palm Meadows villa with polished Statuario Italian marble dining table, bespoke walnut wood fluted wall cladding, warm brushed brass linear chandelier, bespoke high-back dining armchairs in charcoal linen, and garden reflection through sheer glass." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8msF8giDZXB900XPhbSBkT_ISaBAHkjkdrqtpQwIZf2vLnNOxssh7-E_CwINZYZ6Ho8u0ySEb2tYOHFa8hWpm6nIx95dtlKVhQu6j6kD_60r4Eiq_F7mZlrDUE4Tjt6KcwXRhh7OVqKcP0ujw02ztilyx8qC2aD_mKb142UKDtn7PtoD6RtteSlcbk5IH918xLqlqOAcnGmYaItiv25mTMG3QpZAjeIQ_uuvUeC01kFl8GaMzecZ0"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-surface-bright/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+            Gated Estate Villa
+          </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-primary/80 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+            Ultra Luxe Tier
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Italian Marble &amp; Walnut</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Palm Meadows, BLR</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Sovereign Palm Villa</h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+<span>6,800 sq.ft</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">wine_bar</span>
+<span>Wine Cellar</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary group" href="#">
+<span>View Case Study</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 5: Urban Haven -->
+<article class="project-item w-full flex flex-col rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all duration-300" data-category="apartments kitchens">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Clever multi-functional open plan compact 2BHK living room in HSR Layout Bangalore with custom concealed storage benches, floating fluted TV console in smoked ash veneer, seamless hidden bedroom pocket doors, warm cove architectural accent illumination, and stone beige tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9qo8lIJivvTC3XXQcUQXmshPPZSc5HT1kTSQWlEwiuouZI4xj1DaktzA8akUoKNvMrQCphOuA2ojbemsl_mpqNG5qYJNI-fVy_H5QyxMFh2VovT9TXB8ap3QeYDJsRnqwVB_j5HwDhoS-oYJ2fU8Lv4XN01NsWWqVn4WUXIlG5vZVsRqx-kJWa2DfoaDcXgPSbWGX3B5Nbm08Z1Kq8e3tMFlt6x0DZ-4nDp3aStAACHr_NxSQ0ipJ"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-surface-bright/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+            2BHK Urban Smart
+          </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-primary/80 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+            Curated Tier
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Space-Saving Modular</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">HSR Layout, BLR</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Urban Haven</h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+<span>1,450 sq.ft</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">fit_screen</span>
+<span>Hidden Millwork</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary group" href="#">
+<span>View Case Study</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 6: Studio Monolith -->
+<article class="project-item w-full flex flex-col rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all duration-300" data-category="commercial">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Boutique creative design studio office in Bangalore CBD with polished micro-concrete seamless flooring, dark charcoal acoustic ribbed acoustic panels, warm brass linear pendant above monolithic stone conference table, and warm gallery spotlighting showcasing architectural models." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHofZAUKkuo1KJGpVUmc0PNxA2h8uWr-jpjgWSrKegu3Y40SsV9vmEwMCF-SlGW2rm3zPpgQx8GZJX-tkwerZjMjPPq8HnE33potOT12t3FvPyEhMye1z5vZ50YH7-laUhtpK_yjgIKnKfqPc_jd6N0-rpKTMsTH6Br0g1kjpO4ume4w71KmaF_H_SfSmprPN59Z7N3A7hW89YBepIDlyDrP7oXsEyku_hz-NvkujqiSN553zZL0a1"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-surface-bright/90 backdrop-blur-md font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+            Creative Workplace
+          </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="px-space-sm py-1 rounded-DEFAULT bg-primary/80 backdrop-blur-md font-label-sm text-label-sm text-on-primary">
+            Commercial Tier
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Boutique Agency Studio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CBD, Bangalore</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Studio Monolith</h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+<span>3,100 sq.ft</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">groups</span>
+<span>32 Workstations</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider text-primary group" href="#">
+<span>View Case Study</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+</section>
+<!-- Interactive Before & After Transformation Slider -->
+<section class="mt-space-xl px-margin-mobile flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Spatial Transformation</span>
+<h2 class="font-headline-md text-headline-md text-primary">Before &amp; After Remodel</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Drag the divider to reveal how we turned a dated, cramped galley kitchen into an Italian quartz open-concept sanctuary.
+      </p>
+</div>
+<!-- The Interactive Slider Container -->
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-md select-none touch-none" id="ba-container">
+<!-- After Image (Background) -->
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Luminous state-of-the-art transformed German modular luxury kitchen with matte fluted mocha cabinetry, gleaming Calacatta quartz waterfall island with integrated induction, brushed brass touchless faucets, warm indirect LED under-cabinet illumination, and pristine stone floor." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBG1h1wOuXOmqbKP377dWVO-1Fi-bUIX-xiEE2HDRw3ItVHkgfl_X0aTXuNp4mBcJRsIe7nqQY_LqyO0aNZAdFKEOxOjnlUmyTU0dd3t2Rq5M02qbEu_qVq1M3aksaApjWVg7peYROo2eCfpNLzkDGPbDpCH_0xDJlbxOLEKKspJi44_gULxSunh9Ip7gI4ojxZFHzHMyUskUfmKtbMev46_naAgfW1gzDenIiOVdiqTVcgUbFrMStJ"/>
+<!-- Before Image (Clipped Overlay) -->
+<div class="absolute inset-0 overflow-hidden" id="ba-overlay" style="width: 50%;">
+<img class="absolute top-0 left-0 max-w-none h-full object-cover" data-alt="Dated 1990s dark cramped galley apartment kitchen with faded laminated yellowing cabinets, cluttered tile counter, dark ceramic tiled backsplash, harsh fluorescent tube light, and old steel fixtures before renovation." id="ba-before-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF3YJZwfghZ0QOYMSrPkYzKka4hy7Wad6lyVxfYDfmF6oePB9Sg3TjCRcSB30qrHxB1z1lrSTWAjuV7Txt5pVE2bBL9V4feFB1y5mtAjUBTBrbyPFDfxEOzGxAPLis9AVXAs86Rd4ZNyFrnKQlk1qcSy07xIQ4E3wknDu0qqn2QDQ1MzOlA6zJsOuPum0tJCWGmo9IHNJhaGrfdTfGE6PLKrGIRVCDxryi0e9pH-63Jm-qQECNAdTL"/>
+</div>
+<!-- Handle / Divider Line -->
+<div class="absolute top-0 bottom-0 w-0.5 bg-surface-bright flex items-center justify-center cursor-ew-resize shadow-md" id="ba-handle" style="left: 50%;">
+<div class="w-9 h-9 rounded-full bg-primary text-secondary-fixed flex items-center justify-center shadow-lg transform -translate-x-1/2">
+<span class="material-symbols-outlined text-[18px]">drag_handle</span>
+</div>
+</div>
+<!-- Badges -->
+<span class="absolute top-space-xs left-space-xs px-2 py-0.5 rounded-DEFAULT bg-primary/70 backdrop-blur-md font-label-sm text-label-sm text-surface-bright pointer-events-none">
+        Before
+      </span>
+<span class="absolute top-space-xs right-space-xs px-2 py-0.5 rounded-DEFAULT bg-secondary-container backdrop-blur-md font-label-sm text-label-sm text-on-secondary-container pointer-events-none">
+        After Swastik
+      </span>
+</div>
+<!-- Transformation Metadata Capsule -->
+<div class="p-space-sm rounded-xl bg-surface-container flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary">Turnaround</span>
+<span class="font-title-md text-title-md text-primary font-semibold">32 Working Days</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/30"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary">Cabinetry</span>
+<span class="font-title-md text-title-md text-primary font-semibold">E0 Marine Ply</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/30"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary">Hardware</span>
+<span class="font-title-md text-title-md text-primary font-semibold">Blum Aventos</span>
+</div>
+</div>
+</section>
+<!-- Client Story Video/Quote Preview Card -->
+<section class="mt-space-xl px-margin-mobile flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Homeowner Chronicle</span>
+</div>
+<div class="relative rounded-xl overflow-hidden bg-primary text-on-primary p-space-lg flex flex-col gap-space-md shadow-md">
+<!-- Ambient Graphic Glow -->
+<div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="flex items-center justify-between z-10">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed tracking-wider">Penthouse 14B</span>
+</div>
+<p class="font-body-lg text-body-lg text-surface-bright leading-relaxed z-10 italic font-light">
+        “Swastik didn’t just decorate our Koramangala apartment — they elevated our everyday rhythm. The light choreography through the oak screens creates quiet moments we cherish every sunrise.”
+      </p>
+<div class="flex items-center justify-between pt-space-xs z-10">
+<div class="flex items-center gap-space-sm">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of Ananya and Vikram Rao, young modern tech entrepreneurs in stylish casual cream sweaters smiling warmly in their sunlit designer living room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBp9okOeaoYWObCv9a__wOpL06U_qPlbaifsoiIj33psDtichDqBz1Yu9e-IG03lX6GZYLyQ2i5p8GEuP-gGGtOT8RcfGnCcBvWpbUlpOvb_8Fu93ZqLQE5xJzNaM0YzNzCynE4CFZeLBVKNifI6GtFRss6TmqshzLrF4idnDCekGKnsJYbXNnC16KMj8BqCLLqsvUdOepYwmA7hf2X3ilgphSV-MVHYmyeg1xl8oHkTl_REmz1DUht"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-surface-bright font-semibold">Ananya &amp; Vikram Rao</span>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim">Founders, Koramangala Penthouse</span>
+</div>
+</div>
+<!-- Video Play Trigger Button -->
+<button aria-label="Watch Video Tour" class="w-11 h-11 rounded-full bg-surface-bright/10 backdrop-blur-md text-secondary-fixed flex items-center justify-center hover:bg-surface-bright/20 transition-all active:scale-95" onclick="playClientChronicle()">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Bottom CTA Conversion Banner -->
+<section class="mt-space-xl px-margin-mobile mb-space-sm">
+<div class="rounded-xl bg-surface-container-high p-space-lg flex flex-col gap-space-sm text-center items-center shadow-sm">
+<div class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center mb-1">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Start Your Journey</span>
+<h3 class="font-headline-md text-headline-md text-primary leading-tight">Love our work? Let’s design your dream space.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+        Book a bespoke 1-on-1 design consultation with our principal architects at our Bangalore studio or virtually.
+      </p>
+<div class="w-full pt-space-xs flex flex-col gap-space-xs">
+<a class="w-full py-space-sm px-space-md rounded-lg bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider text-center shadow-sm active:scale-98 transition-transform" data-path="contact" href="contact.html">
+          Schedule Consultation
+        </a>
+<a class="w-full py-space-xs font-label-md text-label-md text-on-surface-variant uppercase tracking-wider text-center hover:text-primary transition-colors" href="tel:+18005550199">
+          Or Call +91 80 4920 1800
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Filter pill interaction logic
+  function filterPortfolio(filterType, element) {
+    // Reset all buttons
+    const buttons = document.querySelectorAll('.portfolio-filter-btn');
+    buttons.forEach(btn => {
+      btn.className = 'portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all duration-200';
+    });
+
+    // Set active button
+    element.className = 'portfolio-filter-btn flex-shrink-0 px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md transition-all duration-200 shadow-sm';
+
+    // Filter project cards
+    const cards = document.querySelectorAll('.project-item');
+    cards.forEach(card => {
+      const categories = card.getAttribute('data-category');
+      if (filterType === 'all' || (categories && categories.includes(filterType))) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Interactive Before & After Slider Logic
+  (function initBeforeAfterSlider() {
+    const container = document.getElementById('ba-container');
+    const overlay = document.getElementById('ba-overlay');
+    const handle = document.getElementById('ba-handle');
+    const beforeImg = document.getElementById('ba-before-img');
+
+    if (!container || !overlay || !handle || !beforeImg) return;
+
+    function syncImageWidth() {
+      beforeImg.style.width = container.offsetWidth + 'px';
+    }
+
+    syncImageWidth();
+    window.addEventListener('resize', syncImageWidth);
+
+    let isDragging = false;
+
+    function setSliderPosition(x) {
+      const rect = container.getBoundingClientRect();
+      let offsetX = x - rect.left;
+      if (offsetX < 0) offsetX = 0;
+      if (offsetX > rect.width) offsetX = rect.width;
+
+      const percentage = (offsetX / rect.width) * 100;
+      overlay.style.width = percentage + '%';
+      handle.style.left = percentage + '%';
+    }
+
+    container.addEventListener('pointerdown', (e) => {
+      isDragging = true;
+      setSliderPosition(e.clientX);
+    });
+
+    window.addEventListener('pointermove', (e) => {
+      if (!isDragging) return;
+      setSliderPosition(e.clientX);
+    });
+
+    window.addEventListener('pointerup', () => {
+      isDragging = false;
+    });
+
+    window.addEventListener('pointercancel', () => {
+      isDragging = false;
+    });
+  })();
+
+  function playClientChronicle() {
+    // Micro-interaction delight
+    const btn = event.currentTarget;
+    btn.style.transform = 'scale(0.9)';
+    setTimeout(() => {
+      btn.style.transform = 'scale(1)';
+      alert("Opening high-definition architectural walkthrough film...");
+    }, 150);
+  }
+</script></main><div class="fixed bottom-24 right-margin-mobile z-40"><a class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary text-on-primary shadow-[0_12px_32px_-8px_rgba(43,35,30,0.25)] hover:bg-primary-container transition-all active:scale-95" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-secondary-fixed text-[20px]">chat_bubble</span><span class="font-label-md text-label-md uppercase tracking-wider text-surface-bright">Consult</span></a></div><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(43,35,30,0.04)]" data-active-classes="text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="index.html"><span class="material-symbols-outlined text-[22px]">roofing</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="about.html"><span class="material-symbols-outlined text-[22px]">architecture</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">About</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="service.html"><span class="material-symbols-outlined text-[22px]">design_services</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Services</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-12 transition-colors text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full" data-path="projects" href="project.html"><span class="material-symbols-outlined text-[22px]">gallery_thumbnail</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Projects</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="contact.html"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Contact</span></a></div></nav></body></html>

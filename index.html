@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface": "#1b1c1a", "tertiary-container": "#2c231b", "surface-container": "#efeeea", "on-error-container": "#93000a", "primary-fixed-dim": "#d2c4bc", "secondary-fixed-dim": "#dec395", "surface-bright": "#fbf9f5", "on-secondary-fixed-variant": "#564421", "tertiary": "#150e07", "surface-variant": "#e4e2de", "surface-tint": "#675c56", "on-tertiary-fixed": "#221a12", "on-primary": "#ffffff", "on-primary-fixed": "#221a15", "secondary-fixed": "#fbdfaf", "on-background": "#1b1c1a", "on-tertiary-container": "#97897e", "surface-container-lowest": "#ffffff", "primary-container": "#2b231e", "surface-container-low": "#f5f3ef", "on-secondary-fixed": "#271900", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#4f453f", "secondary": "#705b36", "inverse-primary": "#d2c4bc", "on-error": "#ffffff", "outline": "#7f756f", "outline-variant": "#d1c4bd", "on-secondary-container": "#76613b", "on-tertiary-fixed-variant": "#4f453b", "on-secondary": "#ffffff", "tertiary-fixed": "#f0e0d3", "error": "#ba1a1a", "surface-dim": "#dbdad6", "primary": "#150e0a", "inverse-surface": "#30312e", "background": "#fbf9f5", "surface": "#fbf9f5", "surface-container-high": "#eae8e4", "inverse-on-surface": "#f2f0ec", "tertiary-fixed-dim": "#d3c4b7", "on-primary-container": "#968982", "primary-fixed": "#efe0d7", "error-container": "#ffdad6", "secondary-container": "#fbdfaf", "on-surface-variant": "#4e4540", "surface-container-highest": "#e4e2de" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-md": "1.25rem", "margin-mobile": "1.25rem", "space-lg": "2.25rem", "space-xs": "0.375rem", "space-sm": "0.75rem", "margin": "4rem", "space-xl": "3.5rem", "gutter": "2rem", "margin-tablet": "2rem", "gutter-mobile": "1rem" }, fontFamily: { "title-md": ["Manrope"], "body-lg": ["Manrope"], "title-lg": ["Manrope"], "headline-sm": ["Bodoni Moda"], "body-md": ["Manrope"], "headline-lg-mobile": ["Bodoni Moda"], "body-sm": ["Manrope"], "headline-md": ["Bodoni Moda"], "headline-lg": ["Bodoni Moda"], "label-md": ["Manrope"], "display-lg": ["Bodoni Moda"], "label-sm": ["Manrope"], "display-lg-mobile": ["Bodoni Moda"] }, fontSize: { "title-md": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "500" }], "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "0.01em", fontWeight: "300" }], "title-lg": ["18px", { lineHeight: "26px", letterSpacing: "0.01em", fontWeight: "600" }], "headline-sm": ["22px", { lineHeight: "30px", letterSpacing: "0em", fontWeight: "500" }], "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg-mobile": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "400" }], "headline-md": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.12em", fontWeight: "600" }], "display-lg": ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "400" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.14em", fontWeight: "600" }], "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.01em", fontWeight: "400" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(43,35,30,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="Swastik Interiors Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VxQheKKdgQYECeA8lchJEmmFs-zj2boZoSHV-USPzdFUED3Ghu_LESCgTIFMRWarJaB4pBzL0NOZic7yvi4gFC1I0UDQVr3d6fvXWKCrUdHbiYoLgiIyxXUtggZ3xAYq8rkhF0KbSUUDHgMmfpWa-Fegd38Gre6UNzivO-ll8nM9UTseBRvF7F-oj5rPYKxhcju6e1dO3QantC8YqmTl5t4u8zsK4lF24FXkUXnQ1W9_jPkwlAFaTTb6Y"/><div class="flex flex-col"><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Studio</span><span class="font-title-md text-title-md text-primary font-semibold">Swastik Interiors</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Quick Phone Inquiry" class="w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-low text-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-colors" href="tel:+18005550199"><span class="material-symbols-outlined text-[20px]">call</span></a><a aria-label="Consultation Desk" class="w-11 h-11 flex items-center justify-center p-0.5 rounded-full hover:opacity-90 transition-opacity" data-path="contact" href="contact.html"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtA-W2x6JpLUH1O6LvHPkqKouMuGSE5smP3hCzFIalbhXz-ZsIhNRPTGnRz-faHfEwT_doaP-NKd9ScQOddm5FPOsSwLcLwai7x1HLmpk_CERqmuH739NooLqSKaB9DvYHSPTO8O6N5TY25MabRfXPPuNi6oVodxklN5E0G8Jy7GwjaU95CZkkLAQWLUPV8NRyRTIBZs8xDL_Des8o_g29rSkgWT-QMZUUVBRd5UnTME0X1vPMdh2R"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. Hero Showcase -->
+<section class="relative w-full px-margin-mobile pt-space-xs pb-space-lg flex flex-col">
+<div class="relative w-full rounded-xl overflow-hidden shadow-xl bg-surface-container-high">
+<div class="w-full h-[460px] bg-cover bg-center flex flex-col justify-end relative" data-alt="Ultra-luxury penthouse living room designed in architectural warm minimalism. Featuring double-height ceilings, travertine stone walls, low-profile espresso wood furniture, tactile bouclé upholstery, and floor-to-ceiling panoramic glass windows bathed in soft morning daylight. The palette is rich with bone white, champagne brass, and deep espresso tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAKLQcJISVkhps1zpT_mTL9IIoLAGip8I67R1RsvQW9KdcfIj4HV3j9xAXFYO3Z6s_tbxtEkQjzB1wuOtNRgl610HgS2TgndcbcsJupWGe9YAk9Ftq1tKb15okAznGfciXG1PmFprjfEdSpE4KUzomB3H4xkxW5ozePr73eLW7gSKKmWqaPjbvCwA8TJ0Qc2ZnnPQtKGO34MjsPGgAj898up_KBSx001MYrBhI69K5-04JK32Ie7Lu0')">
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
+<div class="relative z-10 p-space-md flex flex-col gap-space-xs text-on-primary">
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary-fixed"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed">Atelier Showcase · Est. 2012</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-surface-bright font-normal leading-tight">
+            Crafting Timeless Living Spaces
+          </h1>
+<p class="font-body-sm text-body-sm text-surface-container-high line-clamp-2 mt-0.5 font-light">
+            Award-winning bespoke residential &amp; commercial interior architecture in Bangalore &amp; Mumbai.
+          </p>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<a class="flex items-center justify-center gap-space-xs w-full py-3 px-space-md rounded-lg bg-surface-bright text-primary font-title-md text-title-md hover:bg-surface-container-low transition-all active:scale-[0.98] shadow-md" data-path="contact" href="contact.html">
+<span>Book Free Consultation</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="flex items-center justify-center gap-space-xs w-full py-2.5 px-space-md rounded-lg bg-surface-container-highest/20 backdrop-blur-md text-surface-bright font-title-md text-title-md hover:bg-surface-container-highest/30 transition-all" data-path="projects" href="project.html">
+<span>Explore Portfolio</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Quick Metrics Grid -->
+<section class="w-full px-margin-mobile py-space-sm">
+<div class="grid grid-cols-2 gap-2.5">
+<div class="flex flex-col p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">12+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary mt-0.5">Years of Excellence</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] mt-1">Bespoke studio pedigree</span>
+</div>
+<div class="flex flex-col p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">450+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary mt-0.5">Homes Delivered</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] mt-1">Curated residences</span>
+</div>
+<div class="flex flex-col p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">100%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary mt-0.5">On-Time Handover</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] mt-1">Guaranteed milestone SLA</span>
+</div>
+<div class="flex flex-col p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">10-Yr</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary mt-0.5">Material Warranty</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] mt-1">Austrian hardware &amp; ply</span>
+</div>
+</div>
+</section>
+<!-- 3. Featured Design Services -->
+<section class="w-full pt-space-lg pb-space-sm flex flex-col">
+<div class="px-margin-mobile flex items-end justify-between mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Expertise</span>
+<h2 class="font-headline-md text-headline-md text-primary font-normal">Design Services</h2>
+</div>
+<a class="font-label-md text-label-md uppercase tracking-wider text-secondary flex items-center gap-1 hover:text-primary transition-colors pb-1" data-path="services" href="service.html">
+<span>All</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Horizontal Swipeable Pill Service Strip -->
+<div class="flex gap-space-sm overflow-x-auto px-margin-mobile no-scrollbar pb-space-xs snap-x snap-mandatory">
+<!-- Service Card 1 -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full h-36 bg-cover bg-center relative" data-alt="Editorial close up of a bespoke German-engineered modular kitchen featuring matte charcoal handleless cabinetry, calacatta gold quartzite waterfall island, and warm under-counter architectural LED illumination." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDZJoDJWu824j443w5yY1DYqxFYKfD7mo5i2dNGvnwSbD-PR7PbbBdBJRvroDzw7MMrALmst9Suo21zUItT2P0qGpfeHXJ8S2A-cISRWbc-TbawF34i0yr6kHIXDtsZb00Sk7i6q0WvpL6ELpk49S0OQJWu68U56lEDrZ_0FbXJlhrrvBR7FjIrAAo245aDkbLUVS9udhxlCShK6xvadD8UK33CGQ9DVrvWXNRPxqoaU2BAwfK6vGU8')">
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 bg-surface-bright/90 backdrop-blur-md rounded-md font-label-sm text-label-sm uppercase text-primary">Precision Joinery</span>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<h3 class="font-title-lg text-title-lg text-primary">Modular Kitchens</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Hydraulic Blum fittings, quartz islands &amp; integrated sensor storage.</p>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full h-36 bg-cover bg-center relative" data-alt="Sophisticated contemporary living room interior with custom slatted wood acoustic wall panels, curved cream bouclé sofa, brushed brass side tables, and natural jute weave rug." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuABc7GCnLuaJ-xT7zpZFgSfPMJXZCuRb3HAzBX9jeyw37xNRUBUHVhewKQ29Qe5jWWP3mf1yx6-HL5KC5bZNbXN6MqngUUNO3rUx5lvgoL46-PLPEG4CLtAUG_IKq-uA2gqOmp2XcA4CwEeoGfxImp2a5-_q1et3ysZt1PdWDmT0QlcaJXjzdIpxDA3UqsjptGFzuKXZqpK1nOg3Utc60ZaO2ifPmERrTCxi9zOfyvjthANqvjX6O5W')">
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 bg-surface-bright/90 backdrop-blur-md rounded-md font-label-sm text-label-sm uppercase text-primary">Curated Living</span>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<h3 class="font-title-lg text-title-lg text-primary">Luxury Living</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Acoustic paneling, Italian marble flooring &amp; designer bespoke furnishings.</p>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full h-36 bg-cover bg-center relative" data-alt="High-end master bedroom suite suite interior with upholstered headboard wall, muted warm taupe linens, integrated ambient cove lighting, and oak side tables." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCo3adExaybYT4U6QxAfdkSq5_5k0OU8Sji01pr99wc3a9-YLtNZDwhLqdLoWEE_de3r2Njf0nc6FKuwPunRMaKhi9dfiKVJWvr_mkT9t1wx6U7sB1g_NwPvOiYpb778Mk1Evmvz8YKoWP6v1MPpKLGNuV0ZnoIBSuWL6Ccoe5sNlbyry-MnKgK6UQmXIwtThmt9DUODQLVM4wvudvVO89ihdc73P9hsJl3ZY43zhqxiUSjcD8aGpxU')">
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 bg-surface-bright/90 backdrop-blur-md rounded-md font-label-sm text-label-sm uppercase text-primary">Sanctuary</span>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<h3 class="font-title-lg text-title-lg text-primary">Master Suites</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Tailored sanctuary layouts with mood coves, dressing rooms &amp; acoustics.</p>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full h-36 bg-cover bg-center relative" data-alt="Luxury glass walk-in wardrobe with smoked reflective glass sliding doors, integrated vertical lighting channels, rich walnut drawers, and champagne brass handles." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBuLeYa6QlXD4PtSF5xmsZ67Tc-fvrZh-XL976mFjBe9PhyYFz8TzsHeLB67p-nI3mNZqGkcfsmrH7VJX90F9R7B05Cly-n9QmhSPgG2uEBOCXvLKkuaTkYG6Z1_ICgxiwovTynLcJDVv_zKsnQdXGPC3A3m7Avdh5nNVzMbYAa04lbmgcd6u29tA0pn83vUTyrCvSe64Yw017CqzX1c_YmcFirICaAJdUSw5CKNM4oUIKQZjfpOqbc')">
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 bg-surface-bright/90 backdrop-blur-md rounded-md font-label-sm text-label-sm uppercase text-primary">Walk-In</span>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<h3 class="font-title-lg text-title-lg text-primary">Bespoke Wardrobes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Smoked glass, biometric jewelry drawers &amp; custom velvet lining.</p>
+</div>
+</div>
+<!-- Service Card 5 -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full h-36 bg-cover bg-center relative" data-alt="Architectural mood lighting installation along a curved plaster corridor featuring warm brass sconces, recessed floor grazers, and soft museum spotlighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCd7iHd336YmOAaCA6XoZJlh_LW5cNwpVeLHy7NgnVnpfhLPH_GN1OuoJWgMbq1skdf31HvfEYHrTMd77-myGMpxdpEdOf4ptt_6pd5RR7bXlf2OIxEzJ75RULeQ_x1pG3kGF_ESfxRFuYDGXiLrVhnQruv1fggV4oWvSu1UM4knPoX8PTRK6DLKo629_5MtzFodIcihLIN0wxMeZ4-ETaOuoPOKs33skxGqC5azYcF1WRpqJ1LOAu3')">
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 bg-surface-bright/90 backdrop-blur-md rounded-md font-label-sm text-label-sm uppercase text-primary">Lumina</span>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<h3 class="font-title-lg text-title-lg text-primary">Architectural Lighting</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Circadian lighting sequences, plaster profiles &amp; smart scenes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Curated Portfolio Spotlight -->
+<section class="w-full px-margin-mobile pt-space-md pb-space-sm flex flex-col gap-space-sm">
+<div class="flex items-end justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Selected Works</span>
+<h2 class="font-headline-md text-headline-md text-primary font-normal">Portfolio Spotlight</h2>
+</div>
+<a class="font-label-md text-label-md uppercase tracking-wider text-secondary flex items-center gap-1 hover:text-primary transition-colors pb-1" data-path="projects" href="project.html">
+<span>View Archive</span>
+<span class="material-symbols-outlined text-[16px]">arrow_right_alt</span>
+</a>
+</div>
+<!-- Project 1 -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-md">
+<div class="w-full aspect-[16/10] bg-cover bg-center relative" data-alt="High-end penthouse living space with expansive Bangalore city skyline view through architectural glass walls, bespoke smoked oak joinery, fluted travertine fireplace, and bronze sculpture." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAhZVY4-wgiQjg9ecRO3kWYhnNrkjLHaZ4r2SZfXwqo0tpI_FSvfIEiaKAGHwER_u6qCYJGjNG3TlbRPfgsm4NdQA4N4DvnO5MwGYp9S_MDOmHd6DOaDSE49_kQq5FgaMNrZPp7UsU4k_0jZTknVk95lPDXHSmUQnFU1lRc-iulhyCvc2dGVhzpLT5OmAZkISgZIdx9cU0jlWzheDMXfrVGc5YU3cR7Ev_P2xvHjQdD9bTIvmm5jEz7')">
+<span class="absolute top-3 left-3 px-2.5 py-1 bg-surface-bright/95 backdrop-blur-md rounded font-label-sm text-label-sm uppercase tracking-wider text-primary">Modern Minimalist</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-primary">The Oberoi Penthouse</h3>
+<span class="font-label-sm text-label-sm text-secondary font-medium">5,200 SQ. FT.</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Central Bangalore · Complete Spatial Architecture &amp; Automation</p>
+<div class="flex items-center gap-2 pt-2 text-primary font-title-md text-title-md">
+<span>Case Study</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-md">
+<div class="w-full aspect-[16/10] bg-cover bg-center relative" data-alt="Scandinavian luxury villa interior in Alibaug showing pale ash wood beams, microcement seamless floors, minimalist low dining table, and tranquil interior garden courtyard." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDUygAtFZqLOB1yvXvnYerFVJc6SaDb0_ebM8vTuYsTeV-G-eTi4s7ZRb2b_GBKxnocaR3IQ4ptnT-dYOujDWicuEm-5L6JjVVAadAQIwLN-lpY-hMRTE4pH3B7luhk0K-9qyokqUukUDS9PLYIeSwsnl1UzZU2_3j-_IWj_5zPUuV7zIvPWyi5uRZNlfqmJNCeNYVLWcjY6hOiWA8tIqGBjr5qoHtXJHpTpypSz4RGEzM2CuvvK5fx')">
+<span class="absolute top-3 left-3 px-2.5 py-1 bg-surface-bright/95 backdrop-blur-md rounded font-label-sm text-label-sm uppercase tracking-wider text-primary">Scandinavian Luxury</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-primary">Villa Serene</h3>
+<span class="font-label-sm text-label-sm text-secondary font-medium">6,800 SQ. FT.</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Alibaug, Mumbai · Custom Millwork, Landscape Harmonization</p>
+<div class="flex items-center gap-2 pt-2 text-primary font-title-md text-title-md">
+<span>Case Study</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-md">
+<div class="w-full aspect-[16/10] bg-cover bg-center relative" data-alt="Contemporary commercial executive headquarters lounge with acoustic timber slat ceilings, fluted glass executive pods, brushed brass lighting fixtures, and leather seating." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuARsB6WdjJEsn_OmOgE0KCsmkVDq4OXlnSJHzkYPA9YJYOIpmzip5Q-8AhnU58Kjbo8od_uVZ-2bYxAL7YpgTWGQUq8cQzDJd0xUmvOPs4P5cTNg3QLZWh1oxvhBT_0LjURa38ARSNY1t2Jkfo44iEkUElynxcD3kpXo3w4B0rG_SfrG1pYjv3Rghz9y2orfH9WY_hFMPm9LZmv63CWiKwZ8hZ5U0Y9bWYF4J5Yixl2QRr1q0wZB-Y7')">
+<span class="absolute top-3 left-3 px-2.5 py-1 bg-surface-bright/95 backdrop-blur-md rounded font-label-sm text-label-sm uppercase tracking-wider text-primary">Contemporary Commercial</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-primary">Elysian Workspace</h3>
+<span class="font-label-sm text-label-sm text-secondary font-medium">9,400 SQ. FT.</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">BKC, Mumbai · Turnkey Commercial Architecture</p>
+<div class="flex items-center gap-2 pt-2 text-primary font-title-md text-title-md">
+<span>Case Study</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Interactive Estimate Calculator Teaser Banner -->
+<section class="w-full px-margin-mobile py-space-md">
+<div class="p-space-md rounded-xl bg-primary text-on-primary flex flex-col gap-space-sm shadow-xl relative overflow-hidden">
+<div class="absolute -right-8 -bottom-8 w-40 h-40 rounded-full bg-secondary/20 blur-2xl pointer-events-none"></div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed">Instant Transparency</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright font-normal">Interior Cost Estimator</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim">Select your home configuration for an immediate turnkey budget bracket.</p>
+</div>
+<!-- Quick Interactive Selector -->
+<div class="flex flex-col gap-space-xs pt-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-surface-container-high">Select Typology</label>
+<div class="grid grid-cols-3 gap-2" id="typology-selector">
+<button class="cfg-btn py-2 px-1 text-center rounded-lg bg-surface-container-highest/20 text-surface-bright font-label-sm text-label-sm transition-all active:scale-95 border-none" onclick="selectConfig(this, '2 BHK', '₹16L - ₹22L')" type="button">2 BHK</button>
+<button class="cfg-btn py-2 px-1 text-center rounded-lg bg-secondary-fixed text-primary font-label-sm text-label-sm font-semibold transition-all active:scale-95 border-none" onclick="selectConfig(this, '3 BHK', '₹24L - ₹35L')" type="button">3 BHK</button>
+<button class="cfg-btn py-2 px-1 text-center rounded-lg bg-surface-container-highest/20 text-surface-bright font-label-sm text-label-sm transition-all active:scale-95 border-none" onclick="selectConfig(this, '4 BHK / Villa', '₹45L - ₹75L+')" type="button">4 BHK+</button>
+</div>
+<div class="mt-space-xs p-space-sm bg-surface-container-highest/15 rounded-lg flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase">Estimated Investment</span>
+<span class="font-title-lg text-title-lg text-surface-bright font-semibold" id="estimate-price">₹24L - ₹35L</span>
+</div>
+<a class="px-space-sm py-2 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 active:scale-95 transition-transform" data-path="contact" href="contact.html">
+<span>Lock Quote</span>
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Design Process Workflow -->
+<section class="w-full px-margin-mobile pt-space-sm pb-space-md flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Our Methodology</span>
+<h2 class="font-headline-md text-headline-md text-primary font-normal">From Blueprint to Reality</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Streamlined German manufacturing and transparent architectural governance.</p>
+</div>
+<div class="flex flex-col gap-space-xs mt-space-xs">
+<!-- Step 1 -->
+<div class="flex items-start gap-space-sm p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-title-md text-title-md font-semibold shrink-0">
+          1
+        </div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Consultation &amp; 3D Visualizer</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">In-depth spatial discovery session followed by photo-realistic 3D walkthroughs.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex items-start gap-space-sm p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-title-md text-title-md font-semibold shrink-0">
+          2
+        </div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Material Curation &amp; Detailed BOQ</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Physical tactile swatch selections with fixed transparent itemized billing.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex items-start gap-space-sm p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-title-md text-title-md font-semibold shrink-0">
+          3
+        </div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Precision Manufacturing</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Automated German CNC factory calibration ensuring zero on-site sawdust.</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex items-start gap-space-sm p-space-sm bg-surface-container-low rounded-lg shadow-sm">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-title-md text-title-md font-semibold shrink-0">
+          4
+        </div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">45-Day Handover &amp; Deep Clean</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">White-glove installation, 140-point quality audit, and verified 10-year warranty seal.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Client Testimonials Carousel -->
+<section class="w-full pt-space-sm pb-space-xl flex flex-col">
+<div class="px-margin-mobile flex items-end justify-between mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Client Words</span>
+<h2 class="font-headline-md text-headline-md text-primary font-normal">Patron Experiences</h2>
+</div>
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-title-md text-title-md font-bold text-primary">4.9</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(180+)</span>
+</div>
+</div>
+<!-- Horizontal Swipeable Testimonials -->
+<div class="flex gap-space-sm overflow-x-auto px-margin-mobile no-scrollbar pb-space-xs snap-x snap-mandatory">
+<!-- Review 1 -->
+<div class="snap-start shrink-0 w-72 bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+            “Swastik converted our 4BHK into a tranquil Scandinavian haven. Their 45-day deadline was met with absolute zero compromises.”
+          </p>
+</div>
+<div class="flex items-center gap-space-xs pt-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shrink-0" data-alt="Editorial square portrait of an Indian homeowner woman smiling warmly with tasteful linen apparel against an architectural concrete background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdAqHVOLl5ePIpNGxWLBsEaAY11_f7I_pHlYs-X0rFDSgSUoPoT6eREGqdObZ0T_qS_X-XepvrTZaJ2O7q8UQ_m7yFkwFn_UNUHcXG96Y5YfVKzJYgljF84haHBuoG-rJ2bVU0uU2Il7q0yurT7A6E0EkWjYxTqgzlbyanerIGf_H1sS3e-SFb-I_JLx40T70xkKiglcugx9EHQbT2sc4siMx7KvBww2FvCcIV_c3bsJScU6pn2jGk"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold text-sm">Ananya Rao</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">The Presidential Tower, BLR</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="snap-start shrink-0 w-72 bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+            “The joinery in our modular kitchen and walk-in wardrobe rival European luxury imports. Exceptional architectural discipline.”
+          </p>
+</div>
+<div class="flex items-center gap-space-xs pt-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shrink-0" data-alt="Refined portrait of a middle-aged male entrepreneur wearing a dark tailored shirt in an espresso wood framed library setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7BaAkJq8wcV1g4VOnBoQi3fKMctXo9Sq9L4KYJE6pR6EQsVcW1e9EVeb0-Faa0qOqBX5vcvRfs21sljWTc7Db4SILf3mjtfddAYLf-0PAD4EXhCJOybSBUcEM_3J0xP2LRZRKJQOyfQV2yy8K3E84oOmdHaI_YYLfMmzDw9fLHjWNMELvlvdkvE_VORWv1EL4OFa4x7sYkqH2Ob0ctSAr1byf2uBYxu_Pzgr8P2lWDCTV8V_CIk19"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold text-sm">Vikramaditya Shah</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Parel Penthouse, Mumbai</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="snap-start shrink-0 w-72 bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+            “They handled everything from acoustic panels to the last curtain track while we were overseas. Transparent weekly drone &amp; video logs!”
+          </p>
+</div>
+<div class="flex items-center gap-space-xs pt-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shrink-0" data-alt="Portrait of an Indian architect couple smiling warmly indoors in a bright sunlit studio with minimalist beige wall finishes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBhWZUyOy0YjNkPPOBTR3NfvTQi1BIM7cEDM0ZdOVvn3-D4IK7Siv3jjvTerk10hHP0FIPrOSM13DOzLSCJwziFZLhS6qMYbjNMNBMynZ8sygYV1yEbvw6T2CJ1AWxNL-kKbrguyt-feY4UJ0SeHGRm_XgSSdgUGv-rVDPOBSpqNWpgL_C1lAk84KjyGLmAoM8USO0w9O74RUQxi7e7I-AE9p7gOu6DszWnfZ9Y1rT03kjB2HOSTdx"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold text-sm">Meera &amp; Kabir Sen</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Koramangala, Bangalore</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Consultation Call To Action Anchor -->
+<section class="w-full px-margin-mobile pb-space-lg">
+<div class="p-space-lg rounded-xl bg-surface-container-high flex flex-col items-center text-center gap-space-sm shadow-sm">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary">Transform Your Space Today</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">
+          Meet our principal architects at our Indiranagar (BLR) or Worli (MUM) design experience centers.
+        </p>
+</div>
+<div class="w-full flex flex-col gap-space-xs pt-space-xs">
+<a class="flex items-center justify-center gap-space-xs w-full py-3 px-space-md rounded-lg bg-primary text-on-primary font-title-md text-title-md hover:bg-primary-container transition-all active:scale-[0.98]" data-path="contact" href="contact.html">
+<span>Schedule Studio Visit</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+<div class="flex items-center justify-center gap-space-sm font-label-sm text-label-sm text-secondary uppercase tracking-widest pt-1">
+<span>No Obligation</span>
+<span>·</span>
+<span>Complimentary 3D Layout</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function selectConfig(button, type, priceRange) {
+    const buttons = document.querySelectorAll('#typology-selector .cfg-btn');
+    buttons.forEach(btn => {
+      btn.className = 'cfg-btn py-2 px-1 text-center rounded-lg bg-surface-container-highest/20 text-surface-bright font-label-sm text-label-sm transition-all active:scale-95 border-none';
+    });
+    button.className = 'cfg-btn py-2 px-1 text-center rounded-lg bg-secondary-fixed text-primary font-label-sm text-label-sm font-semibold transition-all active:scale-95 border-none';
+    
+    const priceDisplay = document.getElementById('estimate-price');
+    if (priceDisplay) {
+      priceDisplay.style.opacity = '0';
+      setTimeout(() => {
+        priceDisplay.textContent = priceRange;
+        priceDisplay.style.opacity = '1';
+      }, 150);
+    }
+  }
+</script></main><div class="fixed bottom-24 right-margin-mobile z-40"><a class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary text-on-primary shadow-[0_12px_32px_-8px_rgba(43,35,30,0.25)] hover:bg-primary-container transition-all active:scale-95" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-secondary-fixed text-[20px]">chat_bubble</span><span class="font-label-md text-label-md uppercase tracking-wider text-surface-bright">Consult</span></a></div><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(43,35,30,0.04)]" data-active-classes="text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full"><div class="flex items-center justify-around h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-12 transition-colors text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full" data-path="home" href="index.html"><span class="material-symbols-outlined text-[22px]">roofing</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="about.html"><span class="material-symbols-outlined text-[22px]">architecture</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">About</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="service.html"><span class="material-symbols-outlined text-[22px]">design_services</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Services</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="project.html"><span class="material-symbols-outlined text-[22px]">gallery_thumbnail</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Projects</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="contact.html"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Contact</span></a></div></nav></body></html>

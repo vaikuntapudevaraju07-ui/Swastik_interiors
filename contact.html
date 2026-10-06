@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface": "#1b1c1a", "tertiary-container": "#2c231b", "surface-container": "#efeeea", "on-error-container": "#93000a", "primary-fixed-dim": "#d2c4bc", "secondary-fixed-dim": "#dec395", "surface-bright": "#fbf9f5", "on-secondary-fixed-variant": "#564421", "tertiary": "#150e07", "surface-variant": "#e4e2de", "surface-tint": "#675c56", "on-tertiary-fixed": "#221a12", "on-primary": "#ffffff", "on-primary-fixed": "#221a15", "secondary-fixed": "#fbdfaf", "on-background": "#1b1c1a", "on-tertiary-container": "#97897e", "surface-container-lowest": "#ffffff", "primary-container": "#2b231e", "surface-container-low": "#f5f3ef", "on-secondary-fixed": "#271900", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#4f453f", "secondary": "#705b36", "inverse-primary": "#d2c4bc", "on-error": "#ffffff", "outline": "#7f756f", "outline-variant": "#d1c4bd", "on-secondary-container": "#76613b", "on-tertiary-fixed-variant": "#4f453b", "on-secondary": "#ffffff", "tertiary-fixed": "#f0e0d3", "error": "#ba1a1a", "surface-dim": "#dbdad6", "primary": "#150e0a", "inverse-surface": "#30312e", "background": "#fbf9f5", "surface": "#fbf9f5", "surface-container-high": "#eae8e4", "inverse-on-surface": "#f2f0ec", "tertiary-fixed-dim": "#d3c4b7", "on-primary-container": "#968982", "primary-fixed": "#efe0d7", "error-container": "#ffdad6", "secondary-container": "#fbdfaf", "on-surface-variant": "#4e4540", "surface-container-highest": "#e4e2de" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-md": "1.25rem", "margin-mobile": "1.25rem", "space-lg": "2.25rem", "space-xs": "0.375rem", "space-sm": "0.75rem", "margin": "4rem", "space-xl": "3.5rem", "gutter": "2rem", "margin-tablet": "2rem", "gutter-mobile": "1rem" }, fontFamily: { "title-md": ["Manrope"], "body-lg": ["Manrope"], "title-lg": ["Manrope"], "headline-sm": ["Bodoni Moda"], "body-md": ["Manrope"], "headline-lg-mobile": ["Bodoni Moda"], "body-sm": ["Manrope"], "headline-md": ["Bodoni Moda"], "headline-lg": ["Bodoni Moda"], "label-md": ["Manrope"], "display-lg": ["Bodoni Moda"], "label-sm": ["Manrope"], "display-lg-mobile": ["Bodoni Moda"] }, fontSize: { "title-md": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "500" }], "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "0.01em", fontWeight: "300" }], "title-lg": ["18px", { lineHeight: "26px", letterSpacing: "0.01em", fontWeight: "600" }], "headline-sm": ["22px", { lineHeight: "30px", letterSpacing: "0em", fontWeight: "500" }], "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg-mobile": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "400" }], "headline-md": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.12em", fontWeight: "600" }], "display-lg": ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "400" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.14em", fontWeight: "600" }], "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.01em", fontWeight: "400" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(43,35,30,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="Swastik Interiors Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VxQheKKdgQYECeA8lchJEmmFs-zj2boZoSHV-USPzdFUED3Ghu_LESCgTIFMRWarJaB4pBzL0NOZic7yvi4gFC1I0UDQVr3d6fvXWKCrUdHbiYoLgiIyxXUtggZ3xAYq8rkhF0KbSUUDHgMmfpWa-Fegd38Gre6UNzivO-ll8nM9UTseBRvF7F-oj5rPYKxhcju6e1dO3QantC8YqmTl5t4u8zsK4lF24FXkUXnQ1W9_jPkwlAFaTTb6Y"/><div class="flex flex-col"><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Studio</span><span class="font-title-md text-title-md text-primary font-semibold">Swastik Interiors</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Quick Phone Inquiry" class="w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-low text-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-colors" href="tel:+18005550199"><span class="material-symbols-outlined text-[20px]">call</span></a><a aria-label="Consultation Desk" class="w-11 h-11 flex items-center justify-center p-0.5 rounded-full hover:opacity-90 transition-opacity" data-path="contact" href="contact.html"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtA-W2x6JpLUH1O6LvHPkqKouMuGSE5smP3hCzFIalbhXz-ZsIhNRPTGnRz-faHfEwT_doaP-NKd9ScQOddm5FPOsSwLcLwai7x1HLmpk_CERqmuH739NooLqSKaB9DvYHSPTO8O6N5TY25MabRfXPPuNi6oVodxklN5E0G8Jy7GwjaU95CZkkLAQWLUPV8NRyRTIBZs8xDL_Des8o_g29rSkgWT-QMZUUVBRd5UnTME0X1vPMdh2R"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Editorial Intro Framing -->
+<section class="px-margin-mobile pt-space-md pb-space-sm flex flex-col">
+<div class="inline-flex items-center gap-space-xs mb-space-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Private Appointments</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight font-normal">
+      Let’s Start Your Journey
+    </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+      Schedule an appointment at our Experience Center or request a bespoke spatial consultation.
+    </p>
+<!-- Warm Hospitality Banner -->
+<div class="mt-space-md p-space-md rounded-xl bg-surface-container-low flex items-center gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">workspace_premium</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-primary font-medium">Bespoke Architectural Advisory</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Complimentary 60-min private session with a Senior Principal.</span>
+</div>
+</div>
+</section>
+<!-- Consultation Booking Form -->
+<section class="px-margin-mobile my-space-sm">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Step 01 / Reservation</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Spatial Brief &amp; Discovery</h2>
+</div>
+<span class="material-symbols-outlined text-secondary text-[24px]">stylus</span>
+</div>
+<form class="flex flex-col gap-space-md" id="consultation-form" onsubmit="event.preventDefault(); handleConsultationSubmit();">
+<!-- Name -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+            Full Name *
+          </label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-sm text-[18px] text-on-surface-variant">person</span>
+<input class="w-full pl-10 pr-space-sm py-space-sm bg-surface-container-low text-primary rounded-lg font-body-md text-body-md outline-none focus:bg-surface-container transition-colors placeholder:text-on-surface-variant/50" placeholder="e.g. Alistair Vance" required="" type="text"/>
+</div>
+</div>
+<!-- Phone & Email Grid -->
+<div class="grid grid-cols-1 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+              Phone Number *
+            </label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-sm text-[18px] text-on-surface-variant">call</span>
+<input class="w-full pl-10 pr-space-sm py-space-sm bg-surface-container-low text-primary rounded-lg font-body-md text-body-md outline-none focus:bg-surface-container transition-colors placeholder:text-on-surface-variant/50" placeholder="+91 98450 12345" required="" type="tel"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+              Email Address *
+            </label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-space-sm text-[18px] text-on-surface-variant">mail</span>
+<input class="w-full pl-10 pr-space-sm py-space-sm bg-surface-container-low text-primary rounded-lg font-body-md text-body-md outline-none focus:bg-surface-container transition-colors placeholder:text-on-surface-variant/50" placeholder="alistair@domain.com" required="" type="email"/>
+</div>
+</div>
+</div>
+<!-- Experience Center Selector -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+            Preferred Studio Location *
+          </label>
+<div class="grid grid-cols-1 gap-2">
+<label class="studio-option flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low cursor-pointer transition-all active:scale-[0.99]">
+<div class="flex items-center gap-space-xs">
+<input checked="" class="accent-primary w-4 h-4" name="studio_loc" type="radio" value="lavelle"/>
+<span class="font-body-md text-body-md text-primary font-medium">Bangalore - Lavelle Road</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-surface px-2 py-0.5 rounded">Flagship</span>
+</label>
+<label class="studio-option flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low cursor-pointer transition-all active:scale-[0.99]">
+<div class="flex items-center gap-space-xs">
+<input class="accent-primary w-4 h-4" name="studio_loc" type="radio" value="whitefield"/>
+<span class="font-body-md text-body-md text-primary font-medium">Bangalore - Whitefield</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface px-2 py-0.5 rounded">Atelier</span>
+</label>
+<label class="studio-option flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low cursor-pointer transition-all active:scale-[0.99]">
+<div class="flex items-center gap-space-xs">
+<input class="accent-primary w-4 h-4" name="studio_loc" type="radio" value="bandra"/>
+<span class="font-body-md text-body-md text-primary font-medium">Mumbai - Bandra West</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-surface px-2 py-0.5 rounded">Penthouse Lab</span>
+</label>
+</div>
+</div>
+<!-- Property Typology Chips -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+            Property Typology *
+          </label>
+<div class="flex flex-wrap gap-2 pt-1" id="property-chips">
+<button class="prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-colors" data-value="1bhk" onclick="selectPropertyType(this)" type="button">1BHK</button>
+<button class="prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-colors" data-value="2bhk" onclick="selectPropertyType(this)" type="button">2BHK</button>
+<button class="prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary font-semibold shadow-sm transition-colors" data-value="3bhk" onclick="selectPropertyType(this)" type="button">3BHK</button>
+<button class="prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-colors" data-value="villa" onclick="selectPropertyType(this)" type="button">Luxury Villa</button>
+<button class="prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-colors" data-value="commercial" onclick="selectPropertyType(this)" type="button">Commercial Fitout</button>
+</div>
+<input id="selected-property-type" type="hidden" value="3bhk"/>
+</div>
+<!-- Budget & Possession Grid -->
+<div class="grid grid-cols-1 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+              Anticipated Investment *
+            </label>
+<div class="relative">
+<select class="w-full px-space-sm py-space-sm bg-surface-container-low text-primary rounded-lg font-body-md text-body-md outline-none appearance-none cursor-pointer">
+<option value="25-45">₹25 Lac - ₹45 Lac (Refined Contemporary)</option>
+<option selected="" value="45-80">₹45 Lac - ₹80 Lac (Signature Bespoke)</option>
+<option value="80-1.5cr">₹80 Lac - ₹1.5 Cr (Artisanal Penthouse)</option>
+<option value="1.5cr+">₹1.5 Cr+ (Ultra-Luxury Estate / Villa)</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-sm top-3 text-[20px] pointer-events-none text-on-surface-variant">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+              Site Possession Timeline
+            </label>
+<div class="relative">
+<select class="w-full px-space-sm py-space-sm bg-surface-container-low text-primary rounded-lg font-body-md text-body-md outline-none appearance-none cursor-pointer">
+<option value="ready">Immediate / Ready for Handover</option>
+<option selected="" value="30days">Within 30 to 60 Days</option>
+<option value="90days">3 to 6 Months</option>
+<option value="undercon">Under Construction (&gt; 6 Months)</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-sm top-3 text-[20px] pointer-events-none text-on-surface-variant">calendar_today</span>
+</div>
+</div>
+</div>
+<!-- Floor Plan Architectural Upload Prompt -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-semibold">
+            Architectural Floor Plan (Optional)
+          </label>
+<div class="cursor-pointer p-space-md rounded-xl bg-surface-container-low flex flex-col items-center justify-center text-center group hover:bg-surface-container transition-colors" id="drop-zone" onclick="document.getElementById('plan-file').click()">
+<input accept=".pdf,.dwg,.png,.jpg,.jpeg" class="hidden" id="plan-file" onchange="handleFileSelected(event)" type="file"/>
+<div class="w-12 h-12 rounded-full bg-surface flex items-center justify-center text-secondary mb-2 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[24px]">cloud_upload</span>
+</div>
+<span class="font-title-md text-title-md text-primary font-medium" id="upload-status-text">Upload DWG, PDF, or Blueprint</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Maximum file size 25MB • Secure CAD &amp; PDF vault</span>
+</div>
+</div>
+<!-- Submit Button & Guarantee Note -->
+<div class="pt-space-xs flex flex-col gap-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-lg bg-primary text-on-primary font-label-md text-label-md uppercase tracking-widest flex items-center justify-center gap-space-xs shadow-md hover:bg-primary-container transition-all active:scale-[0.99]" type="submit">
+<span>Schedule Free Design Consultation</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<div class="flex items-center justify-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[15px] text-secondary">verified_user</span>
+<span class="font-body-sm text-body-sm">Zero consultation fee • Complete privacy NDA guaranteed</span>
+</div>
+</div>
+</form>
+</div>
+</section>
+<!-- Direct White-Glove Channels -->
+<section class="px-margin-mobile py-space-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Immediate Assistance</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Response &lt; 15 mins</span>
+</div>
+<!-- WhatsApp VIP Card -->
+<a class="p-space-md rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-between shadow-sm active:scale-[0.99] transition-transform" href="https://wa.me/918005550199?text=Hello%20Swastik%20Interiors,%20I%20would%20like%20to%20inquire%20about%20a%20turnkey%20design%20consultation." rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-surface-bright/80 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">chat</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-primary font-semibold">WhatsApp Concierge</span>
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+</div>
+<span class="font-body-sm text-body-sm text-on-secondary-fixed-variant">Instant floor plan review &amp; live chat</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]">chevron_right</span>
+</a>
+<!-- Phone & Email Dual Cards -->
+<div class="grid grid-cols-2 gap-space-sm">
+<a class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:bg-surface-container-low transition-colors" href="tel:+918005550199">
+<div class="w-10 h-10 rounded-full bg-surface-container text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Direct Studio Call</span>
+<span class="font-title-md text-title-md text-primary font-medium mt-0.5">+91 800 555 0199</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Priority desk</span>
+</div>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:bg-surface-container-low transition-colors" href="mailto:concierge@swastikinteriors.com">
+<div class="w-10 h-10 rounded-full bg-surface-container text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Portfolio Inquiries</span>
+<span class="font-title-md text-title-md text-primary font-medium mt-0.5 truncate">concierge@...</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RFP &amp; Drawings</span>
+</div>
+</a>
+</div>
+</section>
+<!-- Experience Centers & Studios -->
+<section class="px-margin-mobile pt-space-md pb-space-sm flex flex-col gap-space-md">
+<div class="flex flex-col">
+<div class="inline-flex items-center gap-1.5 mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Flagship Ateliers</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Experience Centers</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+        Tactile material libraries featuring imported Italian marbles, aged brass joinery, and smart automation vignettes.
+      </p>
+</div>
+<!-- Center Card 1: Lavelle Road Flagship -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative w-full h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Warm modern luxury interior design studio on Lavelle Road Bangalore with natural travertine stone arches, fluted walnut wood wall panels, minimalist brass spotlighting, and sample finishes arrayed on an espresso timber table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9Z86bSg5N8DNW0ep6rHjDm1MndnrTJHN9VKuHmfAnoNrvLFHwhMGzydrYCQIVKLS-Mp8ZzEktkHmwSQHX_LIR2WVl1uG9C3jYBsBP1HQRV7NBJqtVWnT6ih8zBnjDqgpspucJ_xTH6C-hjHuE2Y8oTcwNn-OjVPA-HADoiQ-zp2CKioaIzQ6HYCQ1pI6-E86yZ3SNpivw_7xrdEwcMwChzJ0E7v2ICwXgu1IwLhaBee8ubJ1zPehP"/>
+<div class="absolute top-space-xs right-space-xs px-2.5 py-1 rounded-full bg-primary/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+<span>Open Today</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<h3 class="font-title-lg text-title-lg text-primary">Lavelle Road Flagship</h3>
+<span class="font-label-sm text-label-sm text-secondary bg-surface-container-low px-2 py-0.5 rounded">4,500 sq.ft</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Level 2, The Pavilions, No. 18 Lavelle Road, Shanthala Nagar, Bengaluru 560001
+          </p>
+</div>
+<div class="flex items-center gap-space-xs p-space-xs rounded bg-surface-container-low">
+<span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+<span class="font-body-sm text-body-sm text-primary font-medium">10:00 AM – 8:00 PM (Tue – Sun)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-auto">Mon Closed</span>
+</div>
+<!-- Static Map Snippet with data-location -->
+<div class="w-full h-28 rounded-lg bg-surface-container-high bg-cover bg-center flex items-end p-2 relative overflow-hidden shadow-inner" data-location="Lavelle Road, Bengaluru" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB6UbyKooatgXrrnMjv5A7ehP-BRPPJJ2bE8v8B6nF_UbYqxW9RsTsVf9HPq3fLQSsYfz8PzT_aMcG49v-tvpK3yM4iizv1TVPAcpy-2pumOrvdkeiwsgeEE9Jy2gzOCEsTtSXgMjXJ018Nz1LLYx6hmSQxe7kB7U0wCbuwZFItM7b8DtfTxQKR6E-1b6lsAZBzb_nP3LwAoVLFYtyMrNHMV5ewM9LsX6X9KX4qw6wSg7ULiXrkqbJC')">
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-[1px]"></div>
+<div class="relative z-10 w-full flex items-center justify-between bg-surface-bright/95 backdrop-blur-md p-1.5 rounded text-primary">
+<span class="font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">pin_drop</span> Lavelle Sanctuary
+            </span>
+<a class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider flex items-center gap-0.5 hover:underline" href="https://maps.google.com/?q=Lavelle+Road+Bengaluru" rel="noopener" target="_blank">
+              Directions <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Center Card 2: Mumbai Bandra Atelier -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative w-full h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="High-end penthouse interior design studio in Bandra West Mumbai with floor to ceiling windows, textured lime plaster walls, bespoke champagne gold fixtures, curated art sculptures, and architect moodboards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaJPCKH-nmH6Sub9fMBcHbqEtPvguVQNvEm1erqnrG1ppKYsjUaBoPcl3KhvX7SQ5CEImtN9XWYdmsLQR5MkcyLsPKoZdJjTVPdPled0--4mmWHI0g9wBwWfV5riRQ_BRAUrEB9KkftOOfjVJ5SN4yajci2O55Nut8GR0z4zhWfXGoZHdcBPKP22n-lNt_EydB5wFjG6eXl-YbR0smye0iCdbePrqqRXms6RsvXHaNJ6xOzIlFhC8o"/>
+<div class="absolute top-space-xs right-space-xs px-2.5 py-1 rounded-full bg-primary/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+<span>By Appointment</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center justify-between">
+<h3 class="font-title-lg text-title-lg text-primary">Bandra West Atelier</h3>
+<span class="font-label-sm text-label-sm text-secondary bg-surface-container-low px-2 py-0.5 rounded">Penthouse Suite</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Floor 9, Horizon Bay, Perry Cross Road, Bandra West, Mumbai 400050
+          </p>
+</div>
+<div class="flex items-center gap-space-xs p-space-xs rounded bg-surface-container-low">
+<span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+<span class="font-body-sm text-body-sm text-primary font-medium">10:00 AM – 8:00 PM (Tue – Sun)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-auto">Mon Closed</span>
+</div>
+<div class="w-full h-28 rounded-lg bg-surface-container-high bg-cover bg-center flex items-end p-2 relative overflow-hidden shadow-inner" data-location="Perry Cross Road, Bandra West, Mumbai" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDF1tRFp82kPWisa5XWoGxOz98wdeJep4IWqyC-SHZ0dNrT_S2uzsDFsWILGHgwFOSHihBHyEDFSUfHO8TnbyKIfHLNYsRJ3IbAjX6YSfbM976itJ-gdDephwgy6XLJarEClb1YvEwiKuRPVCBejo5ptctTIrN2c9xtxs0bQ3Jr31c2zvbrklE-78AvPkTlO5miYep3DjCVC8S9JcjLKW3LtZSNC2DmmNc8osoLKVqt5WISXk4ml_8F')">
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-[1px]"></div>
+<div class="relative z-10 w-full flex items-center justify-between bg-surface-bright/95 backdrop-blur-md p-1.5 rounded text-primary">
+<span class="font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">pin_drop</span> Bandra Bay Atelier
+            </span>
+<a class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider flex items-center gap-0.5 hover:underline" href="https://maps.google.com/?q=Perry+Cross+Road+Bandra+West+Mumbai" rel="noopener" target="_blank">
+              Directions <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Accordion -->
+<section class="px-margin-mobile py-space-md flex flex-col gap-space-sm">
+<div class="flex flex-col mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Transparency &amp; Governance</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Frequently Addressed Inquiries</h2>
+</div>
+<div class="flex flex-col gap-2">
+<!-- Item 1 -->
+<div class="faq-item rounded-xl bg-surface-container-lowest overflow-hidden shadow-sm transition-all">
+<button class="w-full p-space-md flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-title-md text-title-md text-primary font-medium pr-2">How does Swastik Interiors structure spatial cost breakdowns?</span>
+<span class="faq-chevron material-symbols-outlined text-secondary transition-transform text-[22px]">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md pt-0 text-on-surface-variant font-body-md text-body-md">
+<p>
+            We adhere to a zero-hidden-cost guarantee. Following our schematic design phase, you receive an itemized bill of quantities with granular line items across civil structural works, bespoke German joinery, electrical automations, and designer upholstery. All factory-direct procurement discounts are passed transparently onto your quotation.
+          </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="faq-item rounded-xl bg-surface-container-lowest overflow-hidden shadow-sm transition-all">
+<button class="w-full p-space-md flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-title-md text-title-md text-primary font-medium pr-2">How does the 45-day turnkey handover guarantee operate?</span>
+<span class="faq-chevron material-symbols-outlined text-secondary transition-transform text-[22px]">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md pt-0 text-on-surface-variant font-body-md text-body-md">
+<p>
+            Our precision modular millwork is manufactured off-site in our state-of-the-art facility while on-site civil works run concurrently. Once civil finishes are signed off, our turnkey fit-out locks into an insured 45-day timeline. Any unforeseen delay triggers a documented compensatory penalty paid directly to the homeowner.
+          </p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="faq-item rounded-xl bg-surface-container-lowest overflow-hidden shadow-sm transition-all">
+<button class="w-full p-space-md flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-title-md text-title-md text-primary font-medium pr-2">What is included under your 10-year warranty coverage?</span>
+<span class="faq-chevron material-symbols-outlined text-secondary transition-transform text-[22px]">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md pt-0 text-on-surface-variant font-body-md text-body-md">
+<p>
+            Every project includes an embossed Certificate of Warranty guaranteeing all structural carcass cabinetry, anti-bubble laminate adhesion, Austrian Blum soft-close mechanics, and termite-resistant marine plywood for up to 10 full years, alongside complimentary bi-annual maintenance audits.
+          </p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="faq-item rounded-xl bg-surface-container-lowest overflow-hidden shadow-sm transition-all">
+<button class="w-full p-space-md flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-title-md text-title-md text-primary font-medium pr-2">Can we introduce customized imported furniture &amp; fixtures?</span>
+<span class="faq-chevron material-symbols-outlined text-secondary transition-transform text-[22px]">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md pt-0 text-on-surface-variant font-body-md text-body-md">
+<p>
+            Absolutely. Unlike rigid turnkey firms, Swastik operates as a tailored architectural practice. Our designers curate custom bespoke millwork, manage global stone procurement, and collaborate with your preferred Italian lighting or artisan furniture brands seamlessly.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Submission Toast (Hidden by Default) -->
+<div class="fixed bottom-28 left-4 right-4 z-50 transform translate-y-32 opacity-0 pointer-events-none transition-all duration-500 ease-out" id="booking-toast">
+<div class="p-space-md rounded-xl bg-primary text-on-primary shadow-xl flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center shrink-0 text-on-secondary">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-semibold text-surface-bright">Consultation Request Confirmed</span>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim">Our studio partner will contact you within 2 business hours.</span>
+</div>
+</div>
+</div>
+<script>
+    function selectPropertyType(btn) {
+      document.querySelectorAll('#property-chips .prop-chip').forEach(el => {
+        el.className = 'prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant transition-colors';
+      });
+      btn.className = 'prop-chip px-space-sm py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary font-semibold shadow-sm transition-colors';
+      document.getElementById('selected-property-type').value = btn.dataset.value;
+    }
+
+    function handleFileSelected(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const statusText = document.getElementById('upload-status-text');
+        statusText.textContent = `Attached: ${file.name.substring(0, 22)}${file.name.length > 22 ? '...' : ''}`;
+        statusText.classList.add('text-secondary');
+      }
+    }
+
+    function toggleFaq(btn) {
+      const content = btn.nextElementSibling;
+      const chevron = btn.querySelector('.faq-chevron');
+      const isExpanded = !content.classList.contains('hidden');
+
+      // Close all
+      document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+      document.querySelectorAll('.faq-chevron').forEach(i => i.style.transform = 'rotate(0deg)');
+
+      if (!isExpanded) {
+        content.classList.remove('hidden');
+        chevron.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    function handleConsultationSubmit() {
+      const toast = document.getElementById('booking-toast');
+      toast.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        toast.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 5000);
+    }
+  </script>
+</div></main><div class="fixed bottom-24 right-margin-mobile z-40"><a class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary text-on-primary shadow-[0_12px_32px_-8px_rgba(43,35,30,0.25)] hover:bg-primary-container transition-all active:scale-95" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-secondary-fixed text-[20px]">chat_bubble</span><span class="font-label-md text-label-md uppercase tracking-wider text-surface-bright">Consult</span></a></div><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(43,35,30,0.04)]" data-active-classes="text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="index.html"><span class="material-symbols-outlined text-[22px]">roofing</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="about.html"><span class="material-symbols-outlined text-[22px]">architecture</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">About</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="service.html"><span class="material-symbols-outlined text-[22px]">design_services</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Services</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="project.html"><span class="material-symbols-outlined text-[22px]">gallery_thumbnail</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Projects</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-12 transition-colors text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full" data-path="contact" href="contact.html"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Contact</span></a></div></nav></body></html>

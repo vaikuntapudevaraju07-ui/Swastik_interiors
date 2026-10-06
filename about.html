@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface": "#1b1c1a", "tertiary-container": "#2c231b", "surface-container": "#efeeea", "on-error-container": "#93000a", "primary-fixed-dim": "#d2c4bc", "secondary-fixed-dim": "#dec395", "surface-bright": "#fbf9f5", "on-secondary-fixed-variant": "#564421", "tertiary": "#150e07", "surface-variant": "#e4e2de", "surface-tint": "#675c56", "on-tertiary-fixed": "#221a12", "on-primary": "#ffffff", "on-primary-fixed": "#221a15", "secondary-fixed": "#fbdfaf", "on-background": "#1b1c1a", "on-tertiary-container": "#97897e", "surface-container-lowest": "#ffffff", "primary-container": "#2b231e", "surface-container-low": "#f5f3ef", "on-secondary-fixed": "#271900", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#4f453f", "secondary": "#705b36", "inverse-primary": "#d2c4bc", "on-error": "#ffffff", "outline": "#7f756f", "outline-variant": "#d1c4bd", "on-secondary-container": "#76613b", "on-tertiary-fixed-variant": "#4f453b", "on-secondary": "#ffffff", "tertiary-fixed": "#f0e0d3", "error": "#ba1a1a", "surface-dim": "#dbdad6", "primary": "#150e0a", "inverse-surface": "#30312e", "background": "#fbf9f5", "surface": "#fbf9f5", "surface-container-high": "#eae8e4", "inverse-on-surface": "#f2f0ec", "tertiary-fixed-dim": "#d3c4b7", "on-primary-container": "#968982", "primary-fixed": "#efe0d7", "error-container": "#ffdad6", "secondary-container": "#fbdfaf", "on-surface-variant": "#4e4540", "surface-container-highest": "#e4e2de" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-md": "1.25rem", "margin-mobile": "1.25rem", "space-lg": "2.25rem", "space-xs": "0.375rem", "space-sm": "0.75rem", "margin": "4rem", "space-xl": "3.5rem", "gutter": "2rem", "margin-tablet": "2rem", "gutter-mobile": "1rem" }, fontFamily: { "title-md": ["Manrope"], "body-lg": ["Manrope"], "title-lg": ["Manrope"], "headline-sm": ["Bodoni Moda"], "body-md": ["Manrope"], "headline-lg-mobile": ["Bodoni Moda"], "body-sm": ["Manrope"], "headline-md": ["Bodoni Moda"], "headline-lg": ["Bodoni Moda"], "label-md": ["Manrope"], "display-lg": ["Bodoni Moda"], "label-sm": ["Manrope"], "display-lg-mobile": ["Bodoni Moda"] }, fontSize: { "title-md": ["16px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "500" }], "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "0.01em", fontWeight: "300" }], "title-lg": ["18px", { lineHeight: "26px", letterSpacing: "0.01em", fontWeight: "600" }], "headline-sm": ["22px", { lineHeight: "30px", letterSpacing: "0em", fontWeight: "500" }], "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "400" }], "headline-lg-mobile": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "400" }], "headline-md": ["28px", { lineHeight: "36px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.12em", fontWeight: "600" }], "display-lg": ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "400" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.14em", fontWeight: "600" }], "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.01em", fontWeight: "400" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(43,35,30,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="Swastik Interiors Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VxQheKKdgQYECeA8lchJEmmFs-zj2boZoSHV-USPzdFUED3Ghu_LESCgTIFMRWarJaB4pBzL0NOZic7yvi4gFC1I0UDQVr3d6fvXWKCrUdHbiYoLgiIyxXUtggZ3xAYq8rkhF0KbSUUDHgMmfpWa-Fegd38Gre6UNzivO-ll8nM9UTseBRvF7F-oj5rPYKxhcju6e1dO3QantC8YqmTl5t4u8zsK4lF24FXkUXnQ1W9_jPkwlAFaTTb6Y"/><div class="flex flex-col"><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Studio</span><span class="font-title-md text-title-md text-primary font-semibold">Swastik Interiors</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Quick Phone Inquiry" class="w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-low text-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-colors" href="tel:+18005550199"><span class="material-symbols-outlined text-[20px]">call</span></a><a aria-label="Consultation Desk" class="w-11 h-11 flex items-center justify-center p-0.5 rounded-full hover:opacity-90 transition-opacity" data-path="contact" href="contact.html"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtA-W2x6JpLUH1O6LvHPkqKouMuGSE5smP3hCzFIalbhXz-ZsIhNRPTGnRz-faHfEwT_doaP-NKd9ScQOddm5FPOsSwLcLwai7x1HLmpk_CERqmuH739NooLqSKaB9DvYHSPTO8O6N5TY25MabRfXPPuNi6oVodxklN5E0G8Jy7GwjaU95CZkkLAQWLUPV8NRyRTIBZs8xDL_Des8o_g29rSkgWT-QMZUUVBRd5UnTME0X1vPMdh2R"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Editorial Page Header -->
+<section class="px-margin-mobile pt-space-lg pb-space-md flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs">
+<span class="w-6 h-[1.5px] bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">The Studio Heritage</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">Our Story &amp; Philosophy</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-space-xs">
+      Where artful architecture meets conscious, functional living. Rooted in warm minimalism and structural truth.
+    </p>
+<!-- Key Metrics Ribbon -->
+<div class="grid grid-cols-3 gap-2 mt-space-md p-space-sm bg-surface-container-low rounded-xl">
+<div class="flex flex-col items-center text-center p-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">12+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mt-0.5">Years Active</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-xs border-x-0 bg-surface-container/60 rounded-lg">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">450+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mt-0.5">Residences</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-xs">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">18</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mt-0.5">Design Awards</span>
+</div>
+</div>
+</section>
+<!-- Founder Spotlight Section -->
+<section class="px-margin-mobile py-space-md">
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative w-full aspect-square bg-surface-container">
+<img alt="Ar. Meera Swastik - Founder &amp; Principal Architect" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtA-W2x6JpLUH1O6LvHPkqKouMuGSE5smP3hCzFIalbhXz-ZsIhNRPTGnRz-faHfEwT_doaP-NKd9ScQOddm5FPOsSwLcLwai7x1HLmpk_CERqmuH739NooLqSKaB9DvYHSPTO8O6N5TY25MabRfXPPuNi6oVodxklN5E0G8Jy7GwjaU95CZkkLAQWLUPV8NRyRTIBZs8xDL_Des8o_g29rSkgWT-QMZUUVBRd5UnTME0X1vPMdh2R"/>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/90 backdrop-blur-md px-space-sm py-2 rounded-lg flex items-center justify-between shadow-sm">
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold leading-tight">Ar. Meera Swastik</p>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">M.Arch, AA London • IIA Fellow</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="relative pl-space-sm border-l-2 border-secondary/40">
+<p class="font-headline-sm text-headline-sm text-primary italic leading-snug">
+            “A home shouldn't merely look serene; it must breathe, ground your senses, and age with graceful permanence.”
+          </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Trained between London and Ahmedabad, Meera established Swastik Interiors to reconcile bespoke artisanal joinery with contemporary residential ergonomics. Under her stewardship, our studio has expanded into a multi-disciplinary collective of architects, interior stylists, and master millworkers.
+        </p>
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-xs py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Bespoke Millwork</span>
+<span class="px-space-xs py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Biophilic Interiors</span>
+<span class="px-space-xs py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Turnkey Execution</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Pillars & Values -->
+<section class="px-margin-mobile py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Guiding Tenets</span>
+<h2 class="font-headline-md text-headline-md text-primary">Foundational Pillars</h2>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[22px]">square_foot</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Craftsmanship &amp; Precision</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">German beam-saw tolerance, edge-banding accuracy to 0.1mm, and hand-finished lime plastering.</p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[22px]">receipt_long</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Transparent Bill of Quantities</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Itemized line-by-line pricing with zero hidden surcharges or post-commencement inflations.</p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[22px]">eco</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Conscious Materiality</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Certified low-VOC sealants, reclaimed teak timber, and E1-grade zero-emission core panels.</p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[22px]">key</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-md text-title-md text-primary font-semibold">End-to-End Turnkey Delivery</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Single-point accountability from architectural demolition to final linen dressing and housewarming handover.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Studio Journey & Milestones -->
+<section class="px-margin-mobile py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Evolution</span>
+<h2 class="font-headline-md text-headline-md text-primary">Milestones in Craft</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tap a chapter to inspect our deliberate trajectory.</p>
+</div>
+<!-- Timeline Interactive Component -->
+<div class="flex flex-col gap-space-xs relative" id="timeline-container">
+<!-- Milestone 1 -->
+<div class="milestone-item bg-surface-container-low p-space-sm rounded-xl cursor-pointer transition-all duration-200" onclick="toggleMilestone(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary font-semibold">2012 • Atelier Genesis</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant milestone-icon transition-transform">expand_more</span>
+</div>
+<div class="milestone-content hidden mt-space-xs pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+          Founded as an intimate three-person boutique consultancy in South Extension, completing 8 handcrafted private residences in the debut year.
+        </div>
+</div>
+<!-- Milestone 2 -->
+<div class="milestone-item bg-surface-container-low p-space-sm rounded-xl cursor-pointer transition-all duration-200" onclick="toggleMilestone(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary font-semibold">2016 • Joinery Plant Commissioned</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant milestone-icon transition-transform">expand_more</span>
+</div>
+<div class="milestone-content hidden mt-space-xs pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+          Inaugurated our proprietary 18,000 sq.ft. modular manufacturing facility equipped with automated HOMAG precision edge-banding lines.
+        </div>
+</div>
+<!-- Milestone 3 -->
+<div class="milestone-item bg-surface-container-low p-space-sm rounded-xl cursor-pointer transition-all duration-200" onclick="toggleMilestone(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary font-semibold">2020 • 250th Turnkey Handover</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant milestone-icon transition-transform">expand_more</span>
+</div>
+<div class="milestone-content hidden mt-space-xs pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+          Honored with the Elle Decor Design Vanguard Citation following the handover of the iconic Vasant Vihar Villa restoration.
+        </div>
+</div>
+<!-- Milestone 4 -->
+<div class="milestone-item bg-surface-container-high p-space-sm rounded-xl cursor-pointer transition-all duration-200" onclick="toggleMilestone(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-title-md text-title-md text-primary font-semibold">2024 • Global Recognition &amp; 450+ Homes</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-primary milestone-icon transition-transform rotate-180">expand_more</span>
+</div>
+<div class="milestone-content mt-space-xs pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+          Surpassed 450 completed bespoke residences. Shortlisted for the World Architecture Festival (WAF) Residential Interior Category.
+        </div>
+</div>
+</div>
+</section>
+<!-- In-House Factory & Material Workshop Showcase -->
+<section class="px-margin-mobile py-space-md flex flex-col gap-space-md">
+<div class="bg-primary text-on-primary p-space-md rounded-xl shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed font-semibold">Precision Engineering</span>
+<h2 class="font-headline-md text-headline-md text-surface-bright">The Material Workshop</h2>
+<p class="font-body-sm text-body-sm text-on-primary-container">
+          Unlike outsourced studios, every piece of millwork is calibrated within our climate-controlled workshop.
+        </p>
+</div>
+<!-- Factory Specs Card List -->
+<div class="grid grid-cols-2 gap-space-xs">
+<div class="p-space-xs rounded-lg bg-primary-container flex flex-col gap-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">precision_manufacturing</span>
+<span class="font-label-md text-label-md text-surface-bright">German CNC Routing</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Homag CNC cutting with sub-millimeter tolerances.</span>
+</div>
+<div class="p-space-xs rounded-lg bg-primary-container flex flex-col gap-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">layers</span>
+<span class="font-label-md text-label-md text-surface-bright">E1 BWP Marine Ply</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Boiling water-proof, zero-emission certified cores.</span>
+</div>
+<div class="p-space-xs rounded-lg bg-primary-container flex flex-col gap-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">hardware</span>
+<span class="font-label-md text-label-md text-surface-bright">Blum &amp; Hafele Systems</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Soft-close concealed runners rated for 200k cycles.</span>
+</div>
+<div class="p-space-xs rounded-lg bg-primary-container flex flex-col gap-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">fact_check</span>
+<span class="font-label-md text-label-md text-surface-bright">51-Point Protocol</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Rigorous pre-assembly quality inspections.</span>
+</div>
+</div>
+<!-- Workshop Image Placeholder -->
+<div class="w-full h-44 rounded-lg overflow-hidden bg-primary-container relative">
+<img class="w-full h-full object-cover" data-alt="Warm atmospheric workshop view of master carpenters aligning bespoke fluted oak paneling, German precision tools, warm golden dust motes, architectural lighting, quiet industrial luxury" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATK-hdO53K9i2tumKJciVUleBB9CTiD_QUi2bqiI2LOfOqI7ofoxFJwqy2EWbfq3m6QjjsA15yfZsnt-2XUvR32iy2Q0f6uDGFqvGnCoyR0NPEDH8IQjwgHAx36mISR47kTtH9PuAlsFix36fVqLHbEkiAmZST_uMThYAor8lhJ4YMYFPucr14FaC_ofbXEl1B7-FB4TYc6HIXifgvX3y4-7YGOPCofApvYZS7XsT1gQjWY4D_7Bgf"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-3">
+<span class="font-label-sm text-label-sm text-surface-bright uppercase tracking-wider">Facility: Okhla Industrial Phase II • 18,000 sq.ft.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Design Leadership & Team Grid -->
+<section class="px-margin-mobile py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">The Collective</span>
+<h2 class="font-headline-md text-headline-md text-primary">Design Leadership</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Architects, spatial planners, and technical site leads.</p>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Member 1 -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex flex-col gap-2 shadow-sm">
+<div class="w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of a handsome lead male architectural designer, wearing black bespoke polo, neutral travertine wall background, soft warm studio lighting, confident serene expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOfe4yNKJAe--9q_1y2g__gCuhKWXyP8y3RZqFge4oyo08MEdybWvzs-wu1tJ51D3HiU8k2ktrcW3Kt4ZluGyhJZ4U5kBiuk7ubEbccpgJMbSbtg9PKP4Ubr4CG5nKEEHM-z0HemPU1ExBmAfWbbqcehdO6-htwUnG8QUUDgJ1ZE0sAYCQXZsP_idMKxsYxXkLxvG8xeXEdK27kt2TGKoHEdAoB7H_1QiDytqzwxnGMaUcg0asnUKR"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Kabir Sen</h4>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Lead Spatial Architect</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">Ex-Morphogenesis, specializing in penthouse spatial layouts and volume optimization.</p>
+</div>
+</div>
+<!-- Member 2 -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex flex-col gap-2 shadow-sm">
+<div class="w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of an elegant female interior stylist and visualizer, linen blazer, holding architectural swatch book, soft daylight studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU7LgxwvZf67TuvKWFfk3UtPrvBuNDbYfIBuuLDvfAt4km0U2YQzgRypFWtNqXrC8txRUY-OOnbe9JtLIzGfj3urCi4Q7Mkhy2zekk8eS9J5oEyAEQJwFtSgQJEJAfXSlNi-LY8c0a2MmVcra9vTVTjsLBJxEBxcaHVpSYukhp0R1Og-OvwITqdzta4t3r-N792l_Xys2Ce_7NSxDTQdrTzoO4vbO83-US7nDyx2GNVh5HALKFUzUK"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Rhea Chawla</h4>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Principal Stylist</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">Textile curator focusing on raw silks, bespoke limewash palettes, and art curation.</p>
+</div>
+</div>
+<!-- Member 3 -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex flex-col gap-2 shadow-sm">
+<div class="w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of an experienced senior male project structural engineer, dark navy overshirt, architectural blueprints on wooden table, focused calm demeanor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgWhfCT3-lqG3bQY5MKVLn0pkWLJv63KLjrhdQXkKtSmj1qlGx12yTQOxk8l2H1KJUQ0MUutCLB-t0MeOm1PlgC1H3Ep1bMsBWm1K1rI5-otG-B2gktMxYFiNRPyUgBrvvuek04bQ9SRToEVSQ61IDhQwahur1nJysR1IJIRpX7-Q24dBNXtSF6Poq1aijZnf3-5U8FlAfboY1sRd0s7dpOKLo0IUCFRnVzCo8wkENsAY2HY8JsNfK"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Devendra Rao</h4>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Chief Site Engineer</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">22 years overseeing MEP, HVAC acoustics, and seamless site coordination.</p>
+</div>
+</div>
+<!-- Member 4 -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex flex-col gap-2 shadow-sm">
+<div class="w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of a young creative 3D computational visualization artist, modern minimalist studio, warm ambient light reflection, smart casual architectural attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCovVErVHoKNJ569TZ3b1gfRAv3upubOERvOilWn4ChZfZ6M1Z3W6lsFV84f-1KjMuhbyHSKh8PxJAzutUCy46JlkqWYuXpMDHVxYpzYEUrysuw7LG9DmfmL2FOA2l30OssvA2yOXkRdI0NjgwMcHC1Gnllq_EpGBTFQjHtA911WCkpysFWSyFVqIilKO9yMLz6MBPeVy1F4W_s_hKfZElhaDYvumlm3oG7_BRSbp_6OALcb-wKXdDd"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-semibold">Tanya Varma</h4>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">CGI &amp; Lighting Lead</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">Translates daylight studies and photorealistic spatial simulations for clients.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Studio Awards & Press Mentions -->
+<section class="px-margin-mobile py-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Recognition</span>
+<h2 class="font-headline-md text-headline-md text-primary">Awards &amp; Editorial Press</h2>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="p-space-sm bg-surface-container-low rounded-xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">military_tech</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">Architectural Digest Top 50</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Featured Studio • 2023 &amp; 2024</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold">AD50</span>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">award_star</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">WAF Interiors Shortlist</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Villa Solitude Project • 2023</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold">WAF</span>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">menu_book</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">Elle Décor Design Award</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Best Residential Restoration • 2021</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold">EDIDA</span>
+</div>
+</div>
+</section>
+<!-- Interactive Coffee Consultation CTA Card -->
+<section class="px-margin-mobile pt-space-sm pb-space-lg">
+<div class="bg-surface-container-highest p-space-md rounded-2xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">coffee</span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Personal Dialogue</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary">Meet our design team in person over coffee.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Bring your architectural floor plans, spatial inquiries, or initial moodboards. We host intimate 45-minute discovery sessions at our South Extension studio.
+        </p>
+</div>
+<!-- Quick Session Booking Form Component -->
+<form class="flex flex-col gap-space-xs mt-space-xs" id="coffee-booking-form" onsubmit="handleSessionSubmit(event)">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Your Name</label>
+<input class="px-space-sm py-2.5 rounded-lg bg-surface text-on-surface font-body-md text-body-md placeholder:text-outline/60 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" placeholder="e.g. Anandita Rao" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1 mt-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Phone / WhatsApp</label>
+<input class="px-space-sm py-2.5 rounded-lg bg-surface text-on-surface font-body-md text-body-md placeholder:text-outline/60 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" placeholder="+91 98100 00000" required="" type="tel"/>
+</div>
+<div class="flex flex-col gap-1 mt-1">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Preferred Weekday &amp; Slot</label>
+<select class="px-space-sm py-2.5 rounded-lg bg-surface text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary shadow-sm">
+<option>Tuesday Afternoon (3:00 PM)</option>
+<option>Thursday Morning (11:30 AM)</option>
+<option>Saturday Studio Tour (2:00 PM)</option>
+</select>
+</div>
+<button class="mt-space-sm w-full py-3 rounded-lg bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-space-xs active:scale-[0.98] transition-transform shadow-md" type="submit">
+<span>Request Coffee Consultation</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<p class="font-label-sm text-label-sm text-center text-on-surface-variant mt-1">
+          Complimentary • Zero sales pressure • Studio Atelier, New Delhi
+        </p>
+</form>
+<!-- Confirmation state container -->
+<div class="hidden p-space-sm bg-surface-container rounded-lg text-center flex-col items-center gap-2" id="booking-success">
+<span class="material-symbols-outlined text-secondary text-[32px]">check_circle</span>
+<p class="font-title-md text-title-md text-primary font-semibold">Table Reserved</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Our concierge will reach out on WhatsApp within 3 business hours to confirm your artisan roast preference and parking bay.</p>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function toggleMilestone(element) {
+    const content = element.querySelector('.milestone-content');
+    const icon = element.querySelector('.milestone-icon');
+    
+    // Toggle active classes
+    if (content.classList.contains('hidden')) {
+      content.classList.remove('hidden');
+      icon.classList.add('rotate-180');
+      element.classList.replace('bg-surface-container-low', 'bg-surface-container-high');
+    } else {
+      content.classList.add('hidden');
+      icon.classList.remove('rotate-180');
+      element.classList.replace('bg-surface-container-high', 'bg-surface-container-low');
+    }
+  }
+
+  function handleSessionSubmit(event) {
+    event.preventDefault();
+    const form = document.getElementById('coffee-booking-form');
+    const success = document.getElementById('booking-success');
+    
+    form.classList.add('hidden');
+    success.classList.remove('hidden');
+    success.classList.add('flex');
+  }
+</script></main><div class="fixed bottom-24 right-margin-mobile z-40"><a class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary text-on-primary shadow-[0_12px_32px_-8px_rgba(43,35,30,0.25)] hover:bg-primary-container transition-all active:scale-95" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-secondary-fixed text-[20px]">chat_bubble</span><span class="font-label-md text-label-md uppercase tracking-wider text-surface-bright">Consult</span></a></div><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(43,35,30,0.04)]" data-active-classes="text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="index.html"><span class="material-symbols-outlined text-[22px]">roofing</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-12 transition-colors text-primary font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-1 after:h-1 after:bg-secondary after:rounded-full" data-path="about" href="about.html"><span class="material-symbols-outlined text-[22px]">architecture</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">About</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="service.html"><span class="material-symbols-outlined text-[22px]">design_services</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Services</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="project.html"><span class="material-symbols-outlined text-[22px]">gallery_thumbnail</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Projects</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="contact.html"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm tracking-wider uppercase mt-0.5">Contact</span></a></div></nav></body></html>
